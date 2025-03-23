@@ -1,0 +1,46 @@
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+*.venv/
+
+# Ignore dataset, collected data, and models
+data/
+dataset/
+models/
+
+# Ignore log and temporary files
+*.log
+*.csv
+*.db
+*.pkl
+*.pickle
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE and editor config files
+.vscode/
+*.swp
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore video/image files (optional)
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Dependencies and environment variables
+requirements.txt
+.env
