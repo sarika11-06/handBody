@@ -16,7 +16,7 @@ model_body_dict = pickle.load(open('models/model_body.p', 'rb'))
 model_body = model_body_dict['model']
 
 # Define labels for hand gestures
-labels_dict_hands = {
+labels_dict_hands = { 
     0: 'Pataka', 1: 'Tripataka', 2: 'Ardhapataka', 3: 'Katarimukha', 4: 'Mayura', 
     5: 'Ardhachandra', 6: 'Arala', 7: 'Sukatunda', 8: 'Musti', 9: 'Sikhara', 
     10: 'Kapittha', 11: 'Katamukha', 12: 'Suchi', 13: 'Chandrakala', 14: 'Padmakosa', 
